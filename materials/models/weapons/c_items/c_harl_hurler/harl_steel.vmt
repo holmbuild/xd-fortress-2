@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models/weapons/c_items/c_harl_hurler/harl_steel"
+	"$basemapalphaphongmask"	"1"
+	"$phong"				"1"
+	"$phongexponent"		"30"
+	"$phongboost"			"4"
+	"$lightwarptexture"		"models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$rimlight"				"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+	"$halflambert"			"1"
+}

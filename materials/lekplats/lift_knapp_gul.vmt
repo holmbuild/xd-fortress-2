@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/metaltrim01"
+	"$color" "[0.92 0.70 0.16]"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

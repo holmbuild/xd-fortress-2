@@ -1,0 +1,9 @@
+// Byggd av Mina bakgrunder/verktyg/bygg_bakgrunder.py. Andras inte for hand.
+"chapters"
+{
+	1	"background_mina01"
+}
+"BackgroundMaps"
+{
+	1	"background_mina01"
+}

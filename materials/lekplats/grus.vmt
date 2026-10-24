@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Nature/gravelground001"
+	"$bumpmap" "Nature/gravelground001_height-ssbump"
+	"$ssbump" "1"
+	"$basetexturetransform" "center 0 0 scale 0.5 0.5 rotate 0 translate 0 0"
+	"$bumptransform" "center 0 0 scale 0.5 0.5 rotate 0 translate 0 0"
+	"$detail" "overlays/detail004"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"$surfaceprop" "dirt"
+	"%keywords" "tf"
+}

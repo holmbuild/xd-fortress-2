@@ -1,0 +1,5 @@
+materials/console/background_mina01_widescreen.vtf
+materials/console/background_mina01_widescreen.vmt
+materials/console/background_mina01.vtf
+materials/console/background_mina01.vmt
+scripts/chapterbackgrounds.txt

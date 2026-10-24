@@ -1,0 +1,7 @@
+models/mina_taunts/necessity_knows_no_law_bf495de8.mdl
+models/mina_taunts/necessity_knows_no_law_bf495de8.vvd
+models/mina_taunts/necessity_knows_no_law_bf495de8.dx80.vtx
+models/mina_taunts/necessity_knows_no_law_bf495de8.dx90.vtx
+models/mina_taunts/necessity_knows_no_law_bf495de8.sw.vtx
+sound/mina_taunts/necessity_knows_no_law_b5a18999.wav
+scripts/mina_taunts.txt

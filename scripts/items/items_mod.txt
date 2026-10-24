@@ -1,0 +1,145 @@
+// Modens egna föremål. Läggs ovanpå TF2:s items_game.txt när schemat laddas
+// (MergeModItems i econ_item_schema.cpp). Varje avsnitt här ersätter eller lägger till
+// poster med samma namn i motsvarande avsnitt i items_game.txt.
+"items_mod"
+{
+	"items"
+	{
+		// The Harl Hurler, putssleven. Koden känner igen den på numret (TF_ITEMDEF_HARL_HURLER).
+		"60000"
+		{
+			"name"	"The Harl Hurler"
+			"item_class"	"saxxy"
+			"prefab"	"weapon_melee_allclass"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_logname"	"harl_hurler"
+			"item_iconname"	"harl_hurler"
+			"item_type_name"	"#TF_Weapon_HarlHurler_Type"
+			"item_name"	"#TF_Weapon_HarlHurler"
+			"item_description"	"#TF_Weapon_HarlHurler_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/player/items/all_class/harl_hurler"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"model_player"	"models/weapons/c_models/c_harl_hurler/c_harl_hurler.mdl"
+			"attach_to_hands"	"1"
+			"inspect_panel_dist"	"40"
+			"anim_slot"	"MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy"	"1"
+				"engineer"	"1"
+				"pyro"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"	"10 0 -7"
+			}
+			// Ljuden har egna poster i scripts/game_sounds_harl.txt (byts med Mina ljud)
+			"visuals"
+			{
+				"sound_melee_hit"		"Harl.HitFlesh"
+				"sound_melee_hit_world"	"Harl.HitWorld"
+				"sound_melee_miss"		"Harl.Swing"
+				"sound_burst"			"Harl.SwingCrit"
+				"sound_special1"		"Harl.Throw"
+				"sound_special2"		"Harl.Scoop"
+			}
+		}
+		// Gladiatorläget: arenans svärd (Eyelanders modell ur VPK). Koden känner igen numret (TF_ITEMDEF_GLADIUS_SWORD).
+		"60001"
+		{
+			"name"	"The Arena Gladius"
+			"item_class"	"tf_weapon_bottle"
+			"prefab"	"weapon_melee_allclass"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+			}
+			"item_logname"	"arena_gladius"
+			"item_iconname"	"arena_gladius"
+			"item_type_name"	"#TF_Gladiator_Weapon_Type"
+			"item_name"	"#TF_Gladiator_Sword"
+			"item_description"	"#TF_Gladiator_Sword_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"model_player"	"models/weapons/c_models/c_claymore/c_claymore.mdl"
+			"attach_to_hands"	"1"
+			"anim_slot"	"MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy"	"1"
+				"engineer"	"1"
+				"pyro"	"1"
+			}
+			"visuals"
+			{
+				"sound_melee_hit"		"Weapon_Sword.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_Sword.HitWorld"
+				"sound_melee_miss"		"Weapon_Sword.Swing"
+			}
+		}
+		// Gladiatorläget: arenans yxa (Scotsman's Skullcutters modell ur VPK, TF_ITEMDEF_GLADIUS_AXE).
+		"60002"
+		{
+			"name"	"The Arena Axe"
+			"item_class"	"tf_weapon_bottle"
+			"prefab"	"weapon_melee_allclass"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+			}
+			"item_logname"	"arena_axe"
+			"item_iconname"	"arena_axe"
+			"item_type_name"	"#TF_Gladiator_Weapon_Type"
+			"item_name"	"#TF_Gladiator_Axe"
+			"item_description"	"#TF_Gladiator_Axe_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"model_player"	"models/weapons/c_models/c_battleaxe/c_battleaxe.mdl"
+			"attach_to_hands"	"1"
+			"anim_slot"	"MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy"	"1"
+				"engineer"	"1"
+				"pyro"	"1"
+			}
+			"visuals"
+			{
+				"sound_melee_hit"		"Weapon_FireAxe.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_Katana.HitWorld"
+				"sound_melee_miss"		"Weapon_Katana.Miss"
+			}
+		}
+	}
+}

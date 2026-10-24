@@ -1,0 +1,114 @@
+// Cow Schet Hurler, modens putsslev (shared/tf/tf_harl_hurler.h). Egna ljudposter så att
+// sleven kan få egna ljud utan att spaden och machetén ändras. Byt ljud med "Mina ljud":
+// lägg filer i Mina ljud\Andra ljud\<ljudpost>\ och kör "Bygg ljud.cmd".
+
+// Slag som missar
+"Harl.Swing"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_64dB"
+	"volume"		".6"
+	"wave"			")weapons/machete_swing.wav"
+}
+
+// Kritiskt slag
+"Harl.SwingCrit"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_64dB"
+	"volume"		".6"
+	"wave"			")weapons/machete_swing_crit.wav"
+}
+
+// Slag som träffar en spelare
+"Harl.HitFlesh"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/axe_hit_flesh1.wav"
+		"wave"		")weapons/axe_hit_flesh2.wav"
+		"wave"		")weapons/axe_hit_flesh3.wav"
+	}
+}
+
+// Slag som träffar en vägg
+"Harl.HitWorld"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/cbar_hit1.wav"
+		"wave"		")weapons/cbar_hit2.wav"
+	}
+}
+
+// Högerklick: bruket kastas av sleven
+"Harl.Throw"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_64dB"
+	"volume"		".6"
+	"pitch"			"95,105"
+	"wave"			")weapons/machete_swing.wav"
+}
+
+// Nytt bruk hamnar på sleven efter kastet
+"Harl.Scoop"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_60dB"
+	"volume"		".35"
+	"pitch"			"105,115"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/mud1.wav"
+		"wave"		"player/footsteps/mud3.wav"
+	}
+}
+
+// Bruket träffar en fiende
+"Harl.LumpHitPlayer"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"		"0.8"
+	"rndwave"
+	{
+		"wave"		"physics/body/body_medium_impact_soft1.wav"
+		"wave"		"physics/body/body_medium_impact_soft2.wav"
+		"wave"		"player/footsteps/mud2.wav"
+	}
+}
+
+// Bruket fastnar på en vägg eller ett golv (spritputsfläcken)
+"Harl.Splat"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"0.7"
+	"pitch"			"90,105"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/mud2.wav"
+		"wave"		"player/footsteps/mud4.wav"
+	}
+}
+
+// Bruket träffar något annat (byggnader, föremål)
+"Harl.LumpHitOther"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"90,105"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/mud1.wav"
+		"wave"		"player/footsteps/mud3.wav"
+	}
+}

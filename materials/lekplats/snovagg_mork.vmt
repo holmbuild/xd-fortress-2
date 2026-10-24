@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Nature/rockwall001forest"
+	"$bumpmap" "Nature/rockwall001_normal"
+	"$color" "[0.6 0.6 0.64]"
+	"$basetexturetransform" "center 0 0 scale 0.3 0.3 rotate 0 translate 0 0"
+	"$bumptransform" "center 0 0 scale 0.3 0.3 rotate 0 translate 0 0"
+	"$surfaceprop" "rock"
+	"%keywords" "tf"
+}

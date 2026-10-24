@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Wood/wood_bridge001"
+	"$detail" "overlays/detail006"
+	"$detailscale" "1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"$color" "[0.85 0.85 0.85]"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+}
