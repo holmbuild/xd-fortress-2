@@ -3,6 +3,8 @@
 A Team Fortress 2 mod on Source SDK Base 2013 Multiplayer: gladiator mode (xd_colosseum),
 ragdoll mode, a playground map, deathrun, taunts and more.
 
+BY: Ugotaphonenumber and Claude XDDDDDDDD
+
 ## Install
 
 1. In Steam, install (both free): **Team Fortress 2** and **Source SDK Base 2013 Multiplayer**
