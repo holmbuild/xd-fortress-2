@@ -23,8 +23,12 @@ ragdoll mode, a playground map, deathrun, taunts and more.
 Close the game and double-click **`Uppdatera.cmd`** in the `mod_tf` folder. Only what changed is downloaded.
 Everyone on a server needs the same version, so update before you join.
 
-Without Git: *Code > Download ZIP*, unzip it into `sourcemods` and rename the folder to `mod_tf`
-(you then have to do that again for every update).
+## Without Git: the zip
+
+Download **[XD_Fortress_2_mod_tf.zip](https://github.com/holmbuild/xd-fortress-2/releases/latest/download/XD_Fortress_2_mod_tf.zip)**
+(always the newest version) and unzip it into Steam's `sourcemods` folder, so that you get
+`...\sourcemods\mod_tf\gameinfo.txt`. For an update, download it again and unzip it over the old one.
+Older versions are under [Releases](https://github.com/holmbuild/xd-fortress-2/releases).
 
 ## Join a server
 
