@@ -1238,23 +1238,50 @@
 				"width"		"96"
 				"height"	"32"
 		}
-		// Arenans vapen i gladiatorläget: Valves ikoner för samma modeller (Eyelander, Scotsman's Skullcutter)
+		// Arenans egna vapen (vapen/gladiator/ikon.py)
 		"arena_gladius"
 		{
-				"dfile"	"HUD/d_images"
-				"dnegfile"	"HUD/dneg_images"
-				"x"		"258"
-				"y"		"464"
-				"width"		"64"
+				"dfile"	"HUD/d_arena_gladius"
+				"dnegfile"	"HUD/dneg_arena_gladius"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
 				"height"	"32"
 		}
 		"arena_axe"
 		{
-				"dfile"	"HUD/d_images"
-				"dnegfile"	"HUD/dneg_images"
-				"x"		"368"
-				"y"		"164"
-				"width"		"64"
+				"dfile"	"HUD/d_arena_axe"
+				"dnegfile"	"HUD/dneg_arena_axe"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"arena_dual"
+		{
+				"dfile"	"HUD/d_arena_dual"
+				"dnegfile"	"HUD/dneg_arena_dual"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"arena_trident"
+		{
+				"dfile"	"HUD/d_arena_trident"
+				"dnegfile"	"HUD/dneg_arena_trident"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"arena_scimitar"
+		{
+				"dfile"	"HUD/d_arena_scimitar"
+				"dnegfile"	"HUD/dneg_arena_scimitar"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
 				"height"	"32"
 		}
 		"fryingpan"

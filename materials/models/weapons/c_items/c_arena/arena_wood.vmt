@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models/weapons/c_items/c_arena/arena_wood"
+	"$basemapalphaphongmask"	"1"
+	"$phong"				"1"
+	"$phongexponent"		"8"
+	"$phongboost"			"1"
+	"$lightwarptexture"		"models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$rimlight"				"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"1"
+	"$halflambert"			"1"
+}
