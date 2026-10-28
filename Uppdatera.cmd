@@ -8,6 +8,8 @@ if errorlevel 1 (
     exit /b 1
 )
 echo Updating XD Fortress 2...
+rem The game rewrites its AI node graphs: take ours, so they never block the update
+git checkout -- maps/graphs >nul 2>nul
 git pull --ff-only
 if errorlevel 1 (
     echo.
