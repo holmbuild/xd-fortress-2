@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "colosseum/sits"
+	"$bumpmap" "colosseum/sits_normal"
+	"$surfaceprop" "concrete"
+	"%keywords" "colosseum"
+}

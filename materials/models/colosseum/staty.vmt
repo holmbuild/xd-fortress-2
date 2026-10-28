@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"colosseum/marmor"
+	"$color2"		"[1.08 1.05 0.98]"
+	"$surfaceprop"	"stone"
+}

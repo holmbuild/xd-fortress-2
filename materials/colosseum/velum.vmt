@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "colosseum/velum"
+	"$nocull" "1"
+	"$surfaceprop" "cloth"
+	"%keywords" "colosseum"
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "colosseum/blod"
+	"$decal" "1"
+	"$decalscale" "0.5"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+	"%keywords" "colosseum"
+}

@@ -1,6 +1,7 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "egypt/sand_floor_05"
+	"$basetexture" "colosseum/sand"
+	"$bumpmap" "colosseum/sand_normal"
 	"$surfaceprop" "sand"
 	"%keywords" "colosseum"
 }

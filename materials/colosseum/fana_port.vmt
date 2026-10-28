@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "colosseum/fana_port"
+	"$alphatest" "1"
+	"$nocull" "1"
+	"$surfaceprop" "cloth"
+	"%keywords" "colosseum"
+}
