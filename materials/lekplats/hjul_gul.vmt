@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "lekplats/vit"
+	"$color" "[0.98 0.82 0.15]"
+	"$surfaceprop" "glass"
+	"%keywords" "tf"
+}

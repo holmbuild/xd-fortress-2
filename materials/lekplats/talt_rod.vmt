@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lekplats/vit"
+	"$color" "[0.78 0.16 0.14]"
+	"$surfaceprop" "carpet"
+	"%keywords" "tf"
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "byggplats/dekal_spricka"
+	"$decal" "1"
+	"$translucent" "1"
+	"$decalscale" "0.4"
+	"%keywords" "byggplats"
+}

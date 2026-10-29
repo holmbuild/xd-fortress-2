@@ -1,0 +1,197 @@
+// dr_xd_construction: byggplatsens ljudbild. Bara Valves ljud (TF2 tf2_sound_misc och
+// Source SDK Base 2013 hl2_sound_misc), inget kopierat. Filen laddas av sig själv för banan
+// (scripts/soundscapes_<bana>.txt, soundscape_system.cpp), så modden behöver ingen egen manifest.
+// env_soundscape skrivs av banor/byggplats/ljud.py.
+//
+// dr_bygg.yta   nivå A och bodarna: vind, avlägset maskinbuller, trafik bortom stängslet,
+//               fåglar och hammarslag från andra delar av bygget.
+// dr_bygg.djup  nivå B och C nere i schaktet: dovare, betongklang, mindre vind och trafik.
+
+"dr_bygg.yta"
+{
+	"dsp"	"1"
+
+	// vinden över gropen
+	"playlooping"
+	{
+		"volume"	"0.22"
+		"pitch"		"100"
+		"wave"		"ambient/lair/wind_elevated_area.wav"
+	}
+
+	// staden bortom stängslet (trafikbrus)
+	"playlooping"
+	{
+		"volume"	"0.28"
+		"pitch"		"100"
+		"wave"		"ambient/mvm_warehouse/warehouse_city.wav"
+	}
+
+	// ett avlägset aggregat
+	"playlooping"
+	{
+		"volume"	"0.10"
+		"pitch"		"85"
+		"wave"		"ambient/generator.wav"
+	}
+
+	// fåglar
+	"playrandom"
+	{
+		"time"		"4,12"
+		"volume"	"0.18,0.32"
+		"pitch"		"95,108"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"ambient/rottenburg/smallbird_01.wav"
+			"wave"	"ambient/rottenburg/smallbird_03.wav"
+			"wave"	"ambient/rottenburg/smallbird_05.wav"
+			"wave"	"ambient/rottenburg/smallbird_07.wav"
+			"wave"	"ambient/bird1.wav"
+			"wave"	"ambient/bird2.wav"
+			"wave"	"ambient/bird3.wav"
+		}
+	}
+
+	// hammarslag och plåt någonstans på bygget
+	"playrandom"
+	{
+		"time"		"1.5,6"
+		"volume"	"0.12,0.25"
+		"pitch"		"90,110"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"physics/metal/metal_solid_impact_hard1.wav"
+			"wave"	"physics/metal/metal_solid_impact_hard4.wav"
+			"wave"	"physics/metal/metal_solid_impact_hard5.wav"
+			"wave"	"physics/wood/wood_plank_impact_hard1.wav"
+			"wave"	"physics/wood/wood_plank_impact_hard2.wav"
+			"wave"	"physics/wood/wood_plank_impact_hard4.wav"
+			"wave"	"physics/wood/wood_plank_impact_hard5.wav"
+			"wave"	"ambient/materials/clang1.wav"
+		}
+	}
+
+	// tyngre maskiner som slår till då och då
+	"playrandom"
+	{
+		"time"		"10,25"
+		"volume"	"0.15,0.25"
+		"pitch"		"90,105"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"ambient/cp_harbor/machinery_outdoors_1shot_03.wav"
+			"wave"	"ambient/machines/machine1_hit1.wav"
+			"wave"	"ambient/machines/machine1_hit2.wav"
+		}
+	}
+
+	// bilar och lastbilar på gatan, någon tutar
+	"playrandom"
+	{
+		"time"		"8,20"
+		"volume"	"0.15,0.28"
+		"pitch"		"92,106"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"ambient/mvm_warehouse/car_passby_01.wav"
+			"wave"	"ambient/mvm_warehouse/car_passby_02.wav"
+			"wave"	"ambient/mvm_warehouse/car_passby_07.wav"
+			"wave"	"ambient/machines/truck_pass_distant1.wav"
+			"wave"	"ambient/machines/truck_pass_distant3.wav"
+			"wave"	"ambient/mvm_warehouse/car_horn_01.wav"
+		}
+	}
+}
+
+"dr_bygg.djup"
+{
+	"dsp"	"17"
+
+	// svag vind som når ner i schaktet
+	"playlooping"
+	{
+		"volume"	"0.14"
+		"pitch"		"90"
+		"wave"		"ambient/desert_wind_low.wav"
+	}
+
+	// dovt mullrande från maskinerna runt om
+	"playlooping"
+	{
+		"volume"	"0.22"
+		"pitch"		"80"
+		"wave"		"ambient/atmosphere/undercity_loop1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.12"
+		"pitch"		"70"
+		"wave"		"ambient/generator.wav"
+	}
+
+	// staden långt borta, svagt
+	"playlooping"
+	{
+		"volume"	"0.10"
+		"pitch"		"95"
+		"wave"		"ambient/mvm_warehouse/warehouse_city.wav"
+	}
+
+	// hammarslag ovanför, dämpade
+	"playrandom"
+	{
+		"time"		"2,8"
+		"volume"	"0.08,0.16"
+		"pitch"		"80,95"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"physics/metal/metal_solid_impact_hard1.wav"
+			"wave"	"physics/metal/metal_solid_impact_hard4.wav"
+			"wave"	"physics/wood/wood_plank_impact_hard1.wav"
+			"wave"	"physics/wood/wood_plank_impact_hard5.wav"
+			"wave"	"ambient/materials/clang1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"12,30"
+		"volume"	"0.12,0.2"
+		"pitch"		"80,95"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"ambient/cp_harbor/machinery_outdoors_1shot_03.wav"
+			"wave"	"ambient/machines/machine1_hit2.wav"
+			"wave"	"ambient/machines/truck_pass_distant3.wav"
+		}
+	}
+
+	// en och annan fågel uppe vid kanten
+	"playrandom"
+	{
+		"time"		"15,35"
+		"volume"	"0.08,0.14"
+		"pitch"		"95,105"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"ambient/rottenburg/smallbird_02.wav"
+			"wave"	"ambient/bird2.wav"
+		}
+	}
+}

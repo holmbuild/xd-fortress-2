@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "byggplats/plank"
+	"$bumpmap" "byggplats/plank_normal"
+	"$surfaceprop" "wood"
+	"%keywords" "byggplats"
+}

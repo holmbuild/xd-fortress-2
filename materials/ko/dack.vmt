@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ko/dack"
+	"$bumpmap" "ko/dack_normal"
+	"$surfaceprop" "concrete"
+	"%keywords" "ko"
+}

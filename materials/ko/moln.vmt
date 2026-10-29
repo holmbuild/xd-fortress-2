@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ko/moln"
+	"$nofog" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "0.004"
+			"texturescrollangle" "30"
+		}
+	}
+	"$surfaceprop" "default"
+	"%keywords" "ko"
+}

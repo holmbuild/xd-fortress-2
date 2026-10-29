@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ko/sten"
+	"$bumpmap" "ko/sten_normal"
+	"$surfaceprop" "rock"
+	"%keywords" "ko"
+}

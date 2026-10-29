@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ko/himmel"
+	"$nofog" "1"
+	"$surfaceprop" "default"
+	"%keywords" "ko"
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "byggplats/dekal_pol"
+	"$decal" "1"
+	"$translucent" "1"
+	"$decalscale" "0.3"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.55 0.58 0.6]"
+	"%keywords" "byggplats"
+}

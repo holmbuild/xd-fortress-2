@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "byggplats/stad_tallrad"
+	"$alphatest" "1"
+	"$alphatestreference" "0.5"
+	"$allowalphatocoverage" "1"
+	"$surfaceprop" "wood"
+	"%keywords" "byggplats stad"
+}

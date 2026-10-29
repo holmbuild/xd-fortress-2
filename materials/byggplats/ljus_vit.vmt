@@ -1,0 +1,7 @@
+"patch"
+{
+	"include" "materials/lights/white002.vmt"
+	"replace"
+	{
+	}
+}

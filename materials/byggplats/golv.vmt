@@ -1,0 +1,8 @@
+"patch"
+{
+	"include" "materials/concrete/concretefloor006.vmt"
+	"replace"
+	{
+		"$envmaptint" "[.16 .16 .16]"
+	}
+}

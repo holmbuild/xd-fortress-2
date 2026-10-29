@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/byggplats/slit_stal"
+	"$bumpmap"		"models/byggplats/slit_stal_normal"
+	"$phong"		"1"
+	"$phongexponent"	"40"
+	"$phongboost"		"3.0"
+	"$phongfresnelranges"	"[.3 .6 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"	"4"
+	"$rimlightboost"	"0.5"
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[0.12 0.12 0.12]"
+	"$normalmapalphaenvmapmask"	"1"
+	"%keywords"		"byggplats"
+}

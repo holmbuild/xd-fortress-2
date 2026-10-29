@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "byggplats/bruk"
+	"$bumpmap" "byggplats/bruk_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.06 0.06 0.06]"
+	"$normalmapalphaenvmapmask" "0"
+	"$surfaceprop" "concrete"
+	"%keywords" "byggplats"
+}

@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "byggplats/stad_berg"
+	"$basetexture2" "byggplats/stad_skog"
+	"$surfaceprop" "rock"
+	"%keywords" "byggplats stad"
+}

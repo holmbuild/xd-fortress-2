@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ko/bana"
+	"$bumpmap" "ko/bana_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.12 0.11 0.09]"
+	"$surfaceprop" "wood"
+	"%keywords" "ko"
+}

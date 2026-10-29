@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/byggplats/skit"
+	"$bumpmap"		"models/byggplats/skit_normal"
+	"$phong"		"1"
+	"$phongexponent"	"34"
+	"$phongboost"		"3.0"
+	"$phongfresnelranges"	"[.3 .6 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"	"4"
+	"$rimlightboost"	"0.5"
+	"%keywords"		"byggplats"
+}

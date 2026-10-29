@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "byggplats/varning"
+	"$bumpmap" "byggplats/varning_normal"
+	"$surfaceprop" "metal"
+	"%keywords" "byggplats"
+}
