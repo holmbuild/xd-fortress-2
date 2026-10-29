@@ -14,7 +14,7 @@ You need **three things**. All of them are free.
 |---|---|
 | **Team Fortress 2** (Steam) | The mod uses TF2's maps, models and sounds. |
 | **Source SDK Base 2013 Multiplayer** (Steam) | This is the game engine the mod runs on. Without it the mod will not start. It is a Steam *tool*, so it does not show up in your library or the store like a normal game. **This is the step most people miss.** |
-| **Git** (recommended) | Downloads the mod and updates it with one double-click. No Git? Use the zip instead (see *Without Git*). |
+| **Git** (recommended) | Downloads the mod and lets you update it with one double-click. Don't like the command line? Install from the zip instead (see *Install with the zip instead*). |
 
 You also need about **2 GB** of free space on C: for the mod.
 
@@ -80,14 +80,20 @@ Install **[Git for Windows](https://git-scm.com/download/win)**. Click *Next* on
 
 ---
 
-## Without Git (the zip)
+## Install with the zip instead (no command line)
 
-- **Install:**
-  1. Do step 1, step 2 and step 5 above as usual.
-  2. Download **[XD_Fortress_2_mod_tf.zip](https://github.com/holmbuild/xd-fortress-2/releases/latest/download/XD_Fortress_2_mod_tf.zip)** (about 340 MB).
-  3. Unzip it into `C:\Program Files (x86)\Steam\steamapps\sourcemods`. If there is no `sourcemods` folder, create it.
-  4. Check that the file `...\sourcemods\mod_tf\gameinfo.txt` exists. If you get `mod_tf\mod_tf\gameinfo.txt` instead, there is one folder too many: move the inner `mod_tf` up one level.
-- **Update:** download the zip again (the link always gives the newest version) and unzip it in the same place. Choose *Replace all files*.
+1. Do step 1, step 2 and step 5 above as usual.
+2. Download **[XD_Fortress_2_mod_tf.zip](https://github.com/holmbuild/xd-fortress-2/releases/latest/download/XD_Fortress_2_mod_tf.zip)** (about 340 MB).
+3. Unzip it into `C:\Program Files (x86)\Steam\steamapps\sourcemods`. If there is no `sourcemods` folder, create it.
+4. Check that the file `...\sourcemods\mod_tf\gameinfo.txt` exists. If you get `mod_tf\mod_tf\gameinfo.txt` instead, there is one folder too many: move the inner `mod_tf` up one level.
+
+**Update:** install Git (step 3), then double-click **`Uppdatera.cmd`** in the `mod_tf` folder.
+
+- The first time, it downloads the whole mod once. This takes a few minutes.
+- After that, it only downloads what changed.
+- Your settings are kept.
+
+No Git? Download the zip again and unzip it in the same place, choosing *Replace all files*.
 
 ---
 
@@ -133,6 +139,12 @@ Nobody has to open ports in their router.
   - Type `/ready` in chat, or press F4, between waves.
   - The host should start the server with `+maxplayers 33` so all 22 robots fit.
 - **Gladiator mode:** before each round everybody trains in the **ludus** (the training yard). Stand in the circle by the gate when you are ready.
+- **Your own radio songs on dr_xd_construction:**
+  - Put wav files in `...\sourcemods\mod_tf\sound\mina_radio\`. Any names and any number of files work.
+  - Use mono, 16 bit, 44.1 or 22.05 kHz.
+  - Your songs play instead of the built-in ones.
+  - Updates never overwrite them.
+  - Players who join your server download them from you.
 - **Keys and extras:**
   - O = ragdoll
   - P = third person
