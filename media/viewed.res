@@ -2,7 +2,7 @@
 {
 	"ctf_2fort"
 	{
-		"viewed"		"10"
+		"viewed"		"12"
 	}
 	"mvm_bigrock"
 	{
@@ -25,6 +25,18 @@
 		"viewed"		"4"
 	}
 	"xd_deathrun"
+	{
+		"viewed"		"1"
+	}
+	"xdmoon_apollo"
+	{
+		"viewed"		"2"
+	}
+	"dr_xd_construction"
+	{
+		"viewed"		"1"
+	}
+	"xdglad_colosseum"
 	{
 		"viewed"		"1"
 	}
