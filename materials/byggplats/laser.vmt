@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/white"
+	"$color" "[2 0.08 0.05]"
+	"$nofog" 1
+}

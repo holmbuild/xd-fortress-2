@@ -2,7 +2,7 @@
 {
 	"$basetexture" "lekplats/sno_egen"
 	"$bumpmap" "lekplats/sno_egen_normal"
-	"$color" "[0.86 0.88 0.9]"
+	"$color" "[0.62 0.64 0.67]"
 	"$envmap" "env_cubemap"
 	"$envmaptint" "[0.05 0.055 0.065]"
 	"$basetexturetransform" "center 0 0 scale 0.5 0.5 rotate 0 translate 0 0"
