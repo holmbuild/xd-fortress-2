@@ -1,168 +1,120 @@
 # XD Fortress 2
 
-A Team Fortress 2 mod: gladiator mode, ragdoll mode, Ragdoll Knockout, deathrun, a playground map, Mann vs. Machine for 10 players, taunts and more.
+A Team Fortress 2 mod with gladiators, ragdolls, deathrun, Mann vs. Machine for 10 players and more.
 
 BY: Ugotaphonenumber and Claude XDDDDDDDD
 
 ---
 
-## What you need, and why
+# How to install
 
-You need **three things**. All of them are free.
+There are **5 steps**. You only do this **once**. Everything is free.
 
-| What | Why |
-|---|---|
-| **Team Fortress 2** (Steam) | The mod uses TF2's maps, models and sounds. |
-| **Source SDK Base 2013 Multiplayer** (Steam) | This is the game engine the mod runs on. Without it the mod will not start. It is a Steam *tool*, so it does not show up in your library or the store like a normal game. **This is the step most people miss.** |
-| **Git** (recommended) | Downloads the mod and lets you update it with one double-click. Don't like the command line? Install from the zip instead (see *Install with the zip instead*). |
+## 1. Get Team Fortress 2
 
-You also need about **2 GB** of free space on C: for the mod.
+1. Press the **Windows key** and **R** at the same time. A small box opens.
+2. Paste this and press **Enter**:
 
----
+   ```
+   steam://install/440
+   ```
 
-## Install step by step (once)
+3. Click **Install** and wait until it is done.
 
-### Step 1: Team Fortress 2
+## 2. Get the game engine
 
-Install Team Fortress 2 in Steam as usual and let it **finish downloading**.
+The mod needs a free Steam tool called **Source SDK Base 2013 Multiplayer**. It does not show up in the store, so do it like this:
 
-Shortcut: press **Windows key + R**, paste `steam://install/440` and press Enter.
-
-### Step 2: Source SDK Base 2013 Multiplayer
-
-1. Press **Windows key + R**.
-2. Paste the text below and press **Enter**:
+1. Press the **Windows key** and **R** at the same time.
+2. Paste this and press **Enter**:
 
    ```
    steam://install/243750
    ```
 
-3. Steam opens an install window for **Source SDK Base 2013 Multiplayer**. Click **Install** and wait until it is done.
+3. Click **Install** and wait until it is done.
 
-Doing it by hand instead: in Steam, go to **Library**. Click the drop-down at the top left that says *Games*, tick **Tools**, then search for `Source SDK Base 2013 Multiplayer`.
+## 3. Get Git
 
-Watch out for the wrong ones: you need **Multiplayer**. *Singleplayer* and the old *Source SDK* will not work.
+1. Go to **https://git-scm.com/download/win**. The download starts.
+2. Open the file you downloaded.
+3. Click **Next** until it says **Install**. Click **Install**, then **Finish**.
 
-**Check:** the tool is in your library and shows a *Launch* button, not *Install*. You never have to start it yourself.
-
-### Step 3: Git
-
-Install **[Git for Windows](https://git-scm.com/download/win)**. Click *Next* on every screen; the default settings are fine.
-
-### Step 4: Download the mod
+## 4. Get the mod
 
 1. Press the **Windows key**, type `cmd` and press **Enter**. A black window opens.
-2. Copy the line below, paste it with right-click (or Ctrl+V) and press **Enter**:
+2. Copy this line, paste it into the black window (right-click) and press **Enter**:
 
    ```
    git clone https://github.com/holmbuild/xd-fortress-2.git "C:\Program Files (x86)\Steam\steamapps\sourcemods\mod_tf"
    ```
 
-3. Wait until it is done. It downloads about 1 GB, so it can take a few minutes. It is finished when you can type in the window again.
+3. Wait. It downloads about 1 GB. It is done when the text stops and you can type again.
+4. Close the black window.
 
-**Is Steam installed somewhere else?** The mod must go into the `steamapps\sourcemods` folder **in the folder where Steam itself is installed**. Your other game library drives do not count. To find that folder, right-click your Steam shortcut and choose *Open file location*. Then change the start of the path in the line above to match it.
+## 5. Restart Steam
 
-### Step 5: Restart Steam completely
-
-1. In Steam, choose **Steam > Exit**. Closing the window is not enough: Steam keeps running in the background.
+1. In Steam, click **Steam** at the top left, then **Exit**.
 2. Start Steam again.
-3. **XD Fortress 2** is now in your library. Click **Play**. Done!
+3. Find **XD Fortress 2** in your library and click **Play**.
+
+**Done!**
 
 ---
 
-## Update (whenever something new is out)
+# How to update
+
+The game tells you when there is a new update. Then:
 
 1. Close the game.
-2. Open the folder `C:\Program Files (x86)\Steam\steamapps\sourcemods\mod_tf`.
-3. Double-click **`Uppdatera.cmd`**. When it says *Up to date*, you are done.
+2. Open this folder: `C:\Program Files (x86)\Steam\steamapps\sourcemods\mod_tf`
+3. Double-click **Uppdatera.cmd**.
+4. When it says **Up to date**, you are done.
 
-**Everyone on a server needs the same version**, so update before you join.
-
----
-
-## Install with the zip instead (no command line)
-
-1. Do step 1, step 2 and step 5 above as usual.
-2. Download **[XD_Fortress_2_mod_tf.zip](https://github.com/holmbuild/xd-fortress-2/releases/latest/download/XD_Fortress_2_mod_tf.zip)** (about 340 MB).
-3. Unzip it into `C:\Program Files (x86)\Steam\steamapps\sourcemods`. If there is no `sourcemods` folder, create it.
-4. Check that the file `...\sourcemods\mod_tf\gameinfo.txt` exists. If you get `mod_tf\mod_tf\gameinfo.txt` instead, there is one folder too many: move the inner `mod_tf` up one level.
-
-**Update:** install Git (step 3), then double-click **`Uppdatera.cmd`** in the `mod_tf` folder.
-
-- The first time, it downloads the whole mod once. This takes a few minutes.
-- After that, it only downloads what changed.
-- Your settings are kept.
-
-No Git? Download the zip again and unzip it in the same place, choosing *Replace all files*.
+You and your friends need the **same version** to play together.
 
 ---
 
-## Join a server
+# How to play with friends
 
-1. The host types `status` in the console. Then they send you the address on the `udp/ip` line. It starts with 169.254 and changes every time the server starts.
-2. Open the console with `~` and type:
+1. The friend who hosts types `status` in the console and sends you the address on the `udp/ip` line.
+2. Press `~` to open the console and type `connect` and the address, like this:
 
    ```
-   connect 169.254.x.x:port
+   connect 169.254.12.34:27015
    ```
 
-Nobody has to open ports in their router.
+No console? Go to **Options > Keyboard > Advanced** and tick **Enable developer console**.
 
-**No console?** Turn on *Options > Keyboard > Advanced > Enable developer console*. Or add `-console` to the game's launch options in Steam.
-
----
-
-## In game
-
-- **Chat commands:**
-  - `/help` lists the mod's commands.
-  - `/modweapons` opens the weapon mod menu: fire rate, projectile speed, multishot, infinite ammo, explosive shots, homing, knockback, vampire, elements, teleport, giant, damage, crits, running speed, air jumps, regeneration and god mode. It works on every weapon, Jarate included.
-- **Maps** (type in the console):
-  - `map xdglad_colosseum`: gladiators
-  - `map xd_lekplats`: playground
-  - `map dr_xd_construction`: deathrun on a construction site
-  - `map xdrag_deathrun`: ragdoll deathrun
-  - `map xdko_skyring` and `map xdko_bowling`: Ragdoll Knockout
-- **The map prefix tells you the game mode:**
-  - `xd_` playground
-  - `xdglad_` gladiators
-  - `dr_` deathrun
-  - `xdrag_` ragdoll mode
-  - `xdko_` Ragdoll Knockout
-- **Deathrun:**
-  - One player is Death (BLU) and presses buttons that start the traps.
-  - Everyone else runs (RED) and has one life.
-  - The first runner to reach the finish picks a duel.
-  - `/dr` shows the queue to become Death.
-- **Mann vs. Machine** (`map mvm_coaltown`, `mvm_decoy`, ...):
-  - Up to 10 defenders.
-  - Type `/ready` in chat, or press F4, between waves.
-  - The host should start the server with `+maxplayers 33` so all 22 robots fit.
-- **Gladiator mode:** before each round everybody trains in the **ludus** (the training yard). Stand in the circle by the gate when you are ready.
-- **Your own radio songs on dr_xd_construction:**
-  - Put wav files in `...\sourcemods\mod_tf\sound\mina_radio\`. Any names and any number of files work.
-  - Use mono, 16 bit, 22.05 kHz, and keep each file under 16 MB, so players download them quickly.
-  - Your songs play instead of the built-in ones.
-  - Updates never overwrite them.
-  - Players who join your server download them from you.
-- **Keys and extras:**
-  - O = ragdoll
-  - P = third person
-  - `/mic` = microphone stand
-  - `/instrument` = play music with the numpad
+Hosting Mann vs. Machine? Add `+maxplayers 33` to the game's launch options in Steam, so all the robots fit.
 
 ---
 
-## Trouble?
+# Something is wrong?
 
-| Problem | Do this |
+| Problem | Fix |
 |---|---|
-| XD Fortress 2 is not in the Steam library | Exit Steam completely (*Steam > Exit*) and start it again. Then check that `...\Steam\steamapps\sourcemods\mod_tf\gameinfo.txt` exists. It must not be `mod_tf\mod_tf\...`, and it must be in the folder where Steam itself is installed. |
-| The game does not start, closes at once, or complains about the engine | **Source SDK Base 2013 Multiplayer** is missing or not finished. Do step 2. Already installed? In the library, right-click it and choose *Properties > Installed Files > Verify integrity*. |
-| Purple and black checkered textures, missing models or sounds | Team Fortress 2 is not fully installed. Let it finish (step 1). |
-| `'git' is not recognized` | Install Git (step 3), then open a **new** cmd window. |
-| `destination path ... already exists` | You already have a `mod_tf` folder, for example from the zip. Rename it to `mod_tf_old`, then run the line in step 4 again. |
-| `Permission denied` when downloading | Open cmd as administrator: press the Windows key, type `cmd`, right-click it and choose *Run as administrator*. |
-| `Uppdatera.cmd` says it failed | Close the game and run it again. |
-| Cannot join the server | Everyone needs the same version. Update, and ask the host to update too. |
-| Anything else (crash, lag, something broken) | Send us the log: `...\sourcemods\mod_tf\logs\klient.log`. After a crash, send `klient_1.log` too, since the game starts a new log every time. The five latest sessions are kept. |
+| XD Fortress 2 is not in my library | Do step 5 again. Steam must be fully closed with **Steam > Exit**. |
+| The game does not start | Do step 2 again. |
+| Purple and black squares in the game | Team Fortress 2 is not finished downloading. Wait for step 1. |
+| `'git' is not recognized` | Do step 3, then open a **new** black window and do step 4 again. |
+| `already exists` in step 4 | You already have the mod. Use **How to update** instead. |
+| My Steam is not in `C:\Program Files (x86)\Steam` | Change the start of the path in step 4 and in **How to update** to where your Steam is. |
+| `Uppdatera.cmd` says it failed | Close the game and double-click it again. |
+| The game crashed | Send us the file `klient_1.log` from the `mod_tf\logs` folder. |
+
+---
+
+# In the game
+
+- Type **/help** in chat to see all the mod's commands.
+- Type **/modweapons** in chat to change your weapon: faster shooting, more damage, homing, explosions and much more.
+- Press **O** to become a ragdoll and **P** for third person.
+- Open the console with `~` and type one of these to play a map:
+  - `map xdglad_colosseum` – gladiators
+  - `map xd_lekplats` – playground
+  - `map dr_xd_construction` – deathrun
+  - `map xdrag_deathrun` – ragdoll deathrun
+  - `map xdko_skyring` or `map xdko_bowling` – Ragdoll Knockout
+  - `map mvm_coaltown` – Mann vs. Machine (type **/ready** in chat between waves)
+- Want your own songs on the radio in `dr_xd_construction`? Put wav files in `mod_tf\sound\mina_radio`. Updates never remove them.
