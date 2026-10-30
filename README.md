@@ -8,51 +8,36 @@ BY: Ugotaphonenumber and Claude XDDDDDDDD
 
 # How to install
 
-There are **5 steps**. You only do this **once**. Everything is free.
+There are **4 steps**. You only do this **once**. Everything is free.
 
 ## 1. Get Team Fortress 2
 
-1. Press the **Windows key** and **R** at the same time. A small box opens.
-2. Paste this and press **Enter**:
+1. Open **Steam** and click **STORE** at the top.
+2. Search for **Team Fortress 2** and open it.
+3. Click **Play Game**, then **Install**. Wait until it is done.
 
-   ```
-   steam://install/440
-   ```
+## 2. Get Source SDK Base 2013 Multiplayer
 
-3. Click **Install** and wait until it is done.
+The mod runs on this free Steam tool. It is **not in the store**. It is hidden in your library:
 
-## 2. Get the game engine
+1. In Steam, click **LIBRARY** at the top.
+2. At the top of the list on the left, click the word **GAMES**. A small menu opens.
+3. Put a tick next to **Tools**.
+4. In the search box under it, type: **Source SDK Base 2013 Multiplayer**
+5. Click it, then click the blue **INSTALL** button. Wait until it is done.
 
-The mod needs a free Steam tool called **Source SDK Base 2013 Multiplayer**. It does not show up in the store, so do it like this:
+Pick the one that says **Multiplayer**. *Singleplayer* will not work.
 
-1. Press the **Windows key** and **R** at the same time.
-2. Paste this and press **Enter**:
+## 3. Get the mod
 
-   ```
-   steam://install/243750
-   ```
-
-3. Click **Install** and wait until it is done.
-
-## 3. Get Git
-
-1. Go to **https://git-scm.com/download/win**. The download starts.
+1. Click this link to download the installer: **[Install_XD_Fortress_2.zip](https://github.com/holmbuild/xd-fortress-2/raw/main/Install_XD_Fortress_2.zip)**
 2. Open the file you downloaded.
-3. Click **Next** until it says **Install**. Click **Install**, then **Finish**.
+3. Double-click **Install XD Fortress 2**.
+4. If a blue box says *Windows protected your PC*, click **More info**, then **Run anyway**.
+5. If it asks to install Git or to allow changes, click **Yes**.
+6. Wait. It downloads about 1 GB. It is done when it says **DONE!** Then press any key.
 
-## 4. Get the mod
-
-1. Press the **Windows key**, type `cmd` and press **Enter**. A black window opens.
-2. Copy this line, paste it into the black window (right-click) and press **Enter**:
-
-   ```
-   git clone https://github.com/holmbuild/xd-fortress-2.git "C:\Program Files (x86)\Steam\steamapps\sourcemods\mod_tf"
-   ```
-
-3. Wait. It downloads about 1 GB. It is done when the text stops and you can type again.
-4. Close the black window.
-
-## 5. Restart Steam
+## 4. Restart Steam
 
 1. In Steam, click **Steam** at the top left, then **Exit**.
 2. Start Steam again.
@@ -67,9 +52,8 @@ The mod needs a free Steam tool called **Source SDK Base 2013 Multiplayer**. It 
 The game tells you when there is a new update. Then:
 
 1. Close the game.
-2. Open this folder: `C:\Program Files (x86)\Steam\steamapps\sourcemods\mod_tf`
-3. Double-click **Uppdatera.cmd**.
-4. When it says **Up to date**, you are done.
+2. Double-click **Update XD Fortress 2** on your desktop.
+3. When it says **Up to date**, you are done.
 
 You and your friends need the **same version** to play together.
 
@@ -94,14 +78,14 @@ Hosting Mann vs. Machine? Add `+maxplayers 33` to the game's launch options in S
 
 | Problem | Fix |
 |---|---|
-| XD Fortress 2 is not in my library | Do step 5 again. Steam must be fully closed with **Steam > Exit**. |
+| I can't find Source SDK Base 2013 Multiplayer | In the library, the **Tools** tick in step 2 must be on. Check the spelling in the search box. |
+| XD Fortress 2 is not in my library | Do step 4 again. Steam must be fully closed with **Steam > Exit**. |
 | The game does not start | Do step 2 again. |
 | Purple and black squares in the game | Team Fortress 2 is not finished downloading. Wait for step 1. |
-| `'git' is not recognized` | Do step 3, then open a **new** black window and do step 4 again. |
-| `already exists` in step 4 | You already have the mod. Use **How to update** instead. |
-| My Steam is not in `C:\Program Files (x86)\Steam` | Change the start of the path in step 4 and in **How to update** to where your Steam is. |
-| `Uppdatera.cmd` says it failed | Close the game and double-click it again. |
-| The game crashed | Send us the file `klient_1.log` from the `mod_tf\logs` folder. |
+| The installer says Git could not be installed | Install Git from [git-scm.com](https://git-scm.com/download/win) (click **Next** on every screen), then do step 3 again. |
+| No **Update XD Fortress 2** on my desktop | Do step 3 again. It updates the mod and puts the button back. |
+| The update says it failed | Close the game and try again. |
+| The game crashed | Send us the file `klient_1.log` from the folder `Steam\steamapps\sourcemods\mod_tf\logs`. |
 
 ---
 
