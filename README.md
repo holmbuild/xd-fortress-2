@@ -116,7 +116,7 @@ Nobody has to open ports in their router.
 
 - **Chat commands:**
   - `/help` lists the mod's commands.
-  - `/modweapons` opens the weapon mod menu: fire rate, projectile speed, multishot, infinite ammo, explosive shots, homing, knockback, vampire, elements, teleport, giant and god mode. It works on every weapon, Jarate included.
+  - `/modweapons` opens the weapon mod menu: fire rate, projectile speed, multishot, infinite ammo, explosive shots, homing, knockback, vampire, elements, teleport, giant, damage, crits, running speed, air jumps, regeneration and god mode. It works on every weapon, Jarate included.
 - **Maps** (type in the console):
   - `map xdglad_colosseum`: gladiators
   - `map xd_lekplats`: playground
@@ -141,7 +141,7 @@ Nobody has to open ports in their router.
 - **Gladiator mode:** before each round everybody trains in the **ludus** (the training yard). Stand in the circle by the gate when you are ready.
 - **Your own radio songs on dr_xd_construction:**
   - Put wav files in `...\sourcemods\mod_tf\sound\mina_radio\`. Any names and any number of files work.
-  - Use mono, 16 bit, 44.1 or 22.05 kHz.
+  - Use mono, 16 bit, 22.05 kHz, and keep each file under 16 MB, so players download them quickly.
   - Your songs play instead of the built-in ones.
   - Updates never overwrite them.
   - Players who join your server download them from you.
