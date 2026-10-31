@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lights/white001"
+	"$color" "[0.86 0.84 0.8]"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+}

@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "fjall/moln"
+	"$translucent" 1
+	"$nocull" 1
+	"$nofog" 1
+	"%keywords" "tf"
+}

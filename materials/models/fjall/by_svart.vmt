@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/fjall/by_metall"
+	"$color2" "[0.14 0.14 0.16]"
+	"%keywords" "tf"
+}

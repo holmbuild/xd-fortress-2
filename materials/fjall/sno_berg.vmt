@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "fjall/sno_fin"
+	"$basetexture2" "Nature/rockwall001forest"
+	"$bumpmap" "fjall/sno_fin_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1.1 1.1 1.25]"
+	"$detail" "fjall/sno_detalj"
+	"$detailscale" "0.17"
+	"$color" "[0.62 0.64 0.72]"
+	"$surfaceprop" "snow"
+	"$surfaceprop2" "rock"
+	"%keywords" "tf"
+}

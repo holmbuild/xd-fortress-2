@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "lights/white001"
+	"$color" "[1.0 0.72 0.36]"
+	"$surfaceprop" "glass"
+	"%keywords" "tf"
+}

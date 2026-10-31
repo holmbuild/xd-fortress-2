@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/fjall/by_pool"
+	"$translucent" "1"
+	"$additive" "1"
+	"$model" "1"
+	"%keywords" "tf"
+}

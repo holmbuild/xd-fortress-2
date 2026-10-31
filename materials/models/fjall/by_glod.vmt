@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/fjall/by_glod"
+	"$selfillum" "1"
+	"%keywords" "tf"
+}
