@@ -1,0 +1,8 @@
+"rykte"
+{
+	"436059"
+	{
+		"segrar"		"2"
+		"namn"		"medog"
+	}
+}
