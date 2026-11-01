@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/fjall/spy"
+	"$model" "1"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "2"
+	"$phongfresnelranges" "[.3 .6 1]"
+	"%keywords" "tf"
+}

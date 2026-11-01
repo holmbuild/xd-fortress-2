@@ -1,19 +1,19 @@
 "WorldVertexTransition"
 {
 	"$basetexture" "fjall/sno_fin"
-	"$basetexture2" "Nature/rockwall001forest"
+	"$basetexture2" "fjall/klippa"
 	"$bumpmap" "fjall/sno_fin_normal"
+	"$bumpmap2" "fjall/klippa_normal"
 	"$normalmapalphaenvmapmask" 1
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[1.1 1.1 1.25]"
+	"$envmaptint" "[1.0 1.0 1.05]"
 	"$detail" "fjall/sno_detalj"
-	"$detailscale" "0.17"
-	"$color" "[0.62 0.64 0.72]"
+	"$detailscale" "3.0"
 	"$surfaceprop" "snow"
 	"$surfaceprop2" "rock"
 	"%keywords" "tf"
 	"hdr"
 	{
-		"$envmaptint" "[0.2 0.2 0.24]"
+		"$envmaptint" "[0.5 0.5 0.55]"
 	}
 }

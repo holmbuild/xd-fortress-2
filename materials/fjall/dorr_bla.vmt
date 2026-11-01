@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/fjall/by_dorr"
+	"$color" "[0.24 0.34 0.50]"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+}

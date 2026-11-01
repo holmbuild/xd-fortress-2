@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "lights/white001"
+	"$color2" "[.95 .72 .08]"
+	"$model" "1"
+	"%keywords" "tf"
+}
