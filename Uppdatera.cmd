@@ -15,6 +15,8 @@ if not exist ".git" goto first
     echo Updating XD Fortress 2...
     rem The game rewrites its AI node graphs: take ours, so they never block the update
     git checkout -- maps/graphs >nul 2>nul
+    rem The game also rewrites media/viewed.res (intro videos seen): take ours too
+    git checkout -- media/viewed.res >nul 2>nul
     git pull --ff-only && (
         echo.
         echo Up to date.
