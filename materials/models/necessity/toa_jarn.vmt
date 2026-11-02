@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models/necessity/toa_jarn"
+	"$bumpmap"				"models/necessity/toa_jarn_n"
+	"$phong"				"1"
+	"$phongexponent"		"10"
+	"$phongboost"			"1.2"
+	"$phongfresnelranges"	"[.3 .65 1]"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$rimlight"				"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"0.8"
+	"$halflambert"			"1"
+}

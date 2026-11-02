@@ -1,0 +1,7 @@
+"SpriteCard"
+{
+	"$basetexture" "particle/necessity/puff_b"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+}

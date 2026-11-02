@@ -1238,6 +1238,16 @@
 				"width"		"96"
 				"height"	"32"
 		}
+		// Toalett-tauntets taunt-kill, TF_DMG_CUSTOM_TAUNTATK_NECESSITY (taunts_kalla/necessity/ikon.py)
+		"necessity"
+		{
+				"dfile"	"HUD/d_necessity"
+				"dnegfile"	"HUD/dneg_necessity"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
 		// Arenans egna vapen (vapen/gladiator/ikon.py)
 		"arena_gladius"
 		{

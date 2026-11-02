@@ -2,7 +2,7 @@
 {
 	"ctf_2fort"
 	{
-		"viewed"		"13"
+		"viewed"		"16"
 	}
 	"mvm_bigrock"
 	{
@@ -42,6 +42,6 @@
 	}
 	"xdski_fjallby"
 	{
-		"viewed"		"1"
+		"viewed"		"4"
 	}
 }

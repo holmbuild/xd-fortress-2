@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "byggplats/dekal_skit"
+	"$decal" "1"
+	"$translucent" "1"
+	"$decalscale" "0.35"
+	"$vertexcolor" "1"
+}
