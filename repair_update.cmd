@@ -1,5 +1,5 @@
 @echo off
-rem XD Fortress 2: repairs a stuck update. Put this file in the mod folder (where Uppdatera.cmd is)
+rem XD Fortress 2: repairs a stuck update. Put this file in the mod folder (where update.cmd is)
 rem and double-click it. Close the game first.
 rem Makes the mod's files exactly like GitHub. Your settings, screenshots and own music are kept.
 cd /d "%~dp0"
@@ -12,7 +12,7 @@ cd /d "%~dp0"
         exit /b 1
     )
     if not exist ".git" (
-        echo This file must be in the mod folder, next to Uppdatera.cmd.
+        echo This file must be in the mod folder, next to update.cmd.
         echo Move it there and run it again.
         pause
         exit /b 1
@@ -26,7 +26,7 @@ cd /d "%~dp0"
     echo Repairing the XD Fortress 2 update...
     git fetch origin main && git reset -q --hard origin/main && (
         echo.
-        echo Repaired and up to date. Next time just use Uppdatera.cmd.
+        echo Repaired and up to date. Next time just use update.cmd.
         pause
         exit /b 0
     )
