@@ -69,6 +69,11 @@ if (-not $git) {
         [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
         $zip = Join-Path $env:TEMP 'xd_mingit.zip'
         Invoke-WebRequest -UseBasicParsing 'https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.1/MinGit-2.47.1-64-bit.zip' -OutFile $zip
+        # The download must be exactly Git for Windows' own file (its SHA-256 from the release notes)
+        if ((Get-FileHash -Algorithm SHA256 $zip).Hash -ne '50B04B55425B5C465D076CDB184F63A0CD0F86F6EC8BB4D5860114A713D2C29A') {
+            Remove-Item $zip -ErrorAction SilentlyContinue
+            Fail 'The Git download was damaged or not the real file. Run this file again.'
+        }
         if (Test-Path $mg) { Remove-Item -Recurse -Force $mg }
         Expand-Archive $zip $mg
         Remove-Item $zip
